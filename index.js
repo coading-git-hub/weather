@@ -94,7 +94,7 @@ document.write(`<div class="main"> <h1 style="align-items: center;margin-top: 50
                         </div>
                         
                         <div class="flip-card-back">
-                          <img style="height: 200%;width: 100%;" src="./asets/cloudy 3.gif" alt="">
+                          <img style="height: 200%;width: 100%;" src="./assets/cloudy 3.gif" alt="">
                           <div class="container">
                             <h4 style=" color: brown;font-size: larger;padding: 5px;"><b>Hi ! CLOUDS</b></h4> 
                            
