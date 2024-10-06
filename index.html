@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Java projects</title>
+</head>
+<body>
+    <style>
+         body {
+          font-family: Arial, Helvetica, sans-serif;
+          background-image: url("./assets/summer back.jpeg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          
+        }
+        
+        .flip-card {
+          background-color: transparent;
+          width: 300px;
+          height: 300px;
+          perspective: 1000px;
+        }
+        
+        .flip-card-inner {
+          position: relative;
+          width: 100%;
+          height: 100%;
+          text-align: center;
+          transition: transform 0.6s;
+          transform-style: preserve-3d;
+          box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        }
+        
+        .flip-card:hover .flip-card-inner {
+          transform: rotateY(180deg);
+        }
+        
+        .flip-card-front, .flip-card-back {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+        }
+        
+        .flip-card-front, p {
+          background-color: #71c5e6;
+          color: black;
+          padding: 0px;
+          margin-top: 0%;
+          font-size: large;
+        }
+        
+        .flip-card-back {
+          width: 100%;
+          height: 50%;
+          transform: rotateY(180deg);
+          background-color: #71c5e6;
+        }
+        .main{
+            margin-left: 38%;
+            height: 50px;
+            
+        }
+        </style>
+         <script src="./index.js"></script> 
+       
+     </body></html>
+        
+ 
+
+
+    
